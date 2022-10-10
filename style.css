@@ -1,0 +1,53 @@
+body {
+    background-color: aquamarine;    
+
+}
+h1 {
+ color: green;
+ font: optional;
+}
+.outerbox {
+    float: left;
+    width: 300px;
+    background-color: rgb(42, 255, 184);
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 2px;
+    border: 2px solid rgb(0, 86, 34);
+}
+
+.leftbox {
+    float: left;
+    width: auto;
+    height: auto;
+
+}
+
+.rightbox {
+    float: right;
+    width: auto;
+    height: 125px;
+
+}
+
+.center {
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    padding: 10px;
+    background-color: aquamarine;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr;
+    gap: 5px 5px;
+    background-color: aquamarine;
+  }
+  
+  .connector { grid-area: 1 / 1 / 2 / 3; }
+  
+  .account { grid-area: 1 / 2 / 2 / 3; }
+  
